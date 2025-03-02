@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Nagigation links to other part of the website-->
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!--Contact Me form-->
+    <form action="/Form_submission" method="post">
+        
+        <h1>Contact Me</h1>
+        <h4>Please, fill appropriately.</h4>
+
+        <!--Name field-->
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your names" required>
+        <br><br>
+
+        <!--Email field-->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!--Message field-->
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="4" placeholder="Enter your message here" required></textarea>
+        <br><br>
+
+        <!--Messsage pariority dropdown-->
+        <label for="priority">Priority</label>
+        <select name="priority" id="priority" required>
+            <option value="">Select your priority level</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+        <br><br>
+
+        <!--Submit button-->
+        <button type="submit">submit</button>
+        
+    </form>
+</body>
+
+<footer>
+    <p> <strong>Email: </strong>fosalami@gmail.com   |  <strong>Whatsapp:</strong> +234 816 777 5155 </p>
+</footer>
+</html>

@@ -1,0 +1,84 @@
+body {
+    background-color: whitesmoke; /*Background colour for the whole website*/
+    font-family: Arial, Helvetica, sans-serif; /*font family for the whole website*/
+}
+
+h1{
+    color: #66bfbf; /*color for all h1 texts*/
+    font-weight: bold; 
+}
+
+h2{
+    color: #66bfbf; /*color for all h2 texts*/
+    font-weight: bold;
+}
+
+h3{
+    color: #66bfbf; /*color for all h3 texts*/
+    font-weight: bold;
+}
+
+img {
+    border-radius: 30px; /*image radius*/
+    height: 200px; /*Image height*/
+}
+
+table {
+    max-width: 900px;
+
+    margin-left: 1px; 
+}
+
+table td {
+    text-align: unset;
+    color: #66bfbf;
+    vertical-align: bottom;
+}
+
+nav{
+    background-color: #2e2929; /* Background color for the nav bar */
+    padding: 10px 0; /* Add some padding */
+    width:800px auto;
+    border-radius: 30px;
+}
+
+ul{
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+li {
+    margin: 0 50px; /* Add spacing between items */
+
+}
+a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Adjust font size */
+}
+
+.mine{
+    list-style: disc; /* Restore bullet points */
+    padding-left: 20px; /* Restore default padding */
+    margin: 0; /* Adjust margin as needed */
+    display: block;
+}
+
+.mine li{
+    margin-left: 40px;
+}
+
+button{
+    color:#fdfdfd;
+    background-color: #66bfbf;
+    border-style: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}
